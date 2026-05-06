@@ -1,0 +1,13 @@
+{
+  "itemGroup.healthmod": "Example Mod Tab",
+  "block.healthmod.example_block": "Example Block",
+  "item.healthmod.example_item": "Example Item",
+
+  "healthmod.configuration.title": "Realistic health mod Configs",
+  "healthmod.configuration.section.healthmod.common.toml": "Realistic health mod Configs",
+  "healthmod.configuration.section.healthmod.common.toml.title": "Realistic health mod Configs",
+  "healthmod.configuration.items": "Item List",
+  "healthmod.configuration.logDirtBlock": "Log Dirt Block",
+  "healthmod.configuration.magicNumberIntroduction": "Magic Number Text",
+  "healthmod.configuration.magicNumber": "Magic Number"
+}
