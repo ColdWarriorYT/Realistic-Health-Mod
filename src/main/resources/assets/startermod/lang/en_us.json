@@ -1,0 +1,14 @@
+{
+  "itemGroup.startermod": "Starter Mod Tab",
+  "block.startermod.example_block": "Example Block",
+  "item.startermod.example_item": "Example Item",
+  "item.startermod.bandage": "Bandage",
+
+  "startermod.configuration.title": "Starter Mod Configs",
+  "startermod.configuration.section.startermod.common.toml": "Starter Mod Configs",
+  "startermod.configuration.section.startermod.common.toml.title": "Starter Mod Configs",
+  "startermod.configuration.items": "Item List",
+  "startermod.configuration.logDirtBlock": "Log Dirt Block",
+  "startermod.configuration.magicNumberIntroduction": "Magic Number Text",
+  "startermod.configuration.magicNumber": "Magic Number"
+}

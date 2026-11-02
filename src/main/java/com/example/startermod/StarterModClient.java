@@ -1,4 +1,4 @@
-package com.health.healthmod;
+package com.example.startermod;
 
 import net.minecraft.client.Minecraft;
 import net.neoforged.api.distmarker.Dist;
@@ -11,11 +11,11 @@ import net.neoforged.neoforge.client.gui.ConfigurationScreen;
 import net.neoforged.neoforge.client.gui.IConfigScreenFactory;
 
 // This class will not load on dedicated servers. Accessing client side code from here is safe.
-@Mod(value = Realistichealthmod.MODID, dist = Dist.CLIENT)
+@Mod(value = StarterMod.MODID, dist = Dist.CLIENT)
 // You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent
-@EventBusSubscriber(modid = Realistichealthmod.MODID, value = Dist.CLIENT)
-public class RealistichealthmodClient {
-    public RealistichealthmodClient(ModContainer container) {
+@EventBusSubscriber(modid = StarterMod.MODID, value = Dist.CLIENT)
+public class StarterModClient {
+    public StarterModClient(ModContainer container) {
         // Allows NeoForge to create a config screen for this mod's configs.
         // The config screen is accessed by going to the Mods screen > clicking on your mod > clicking on config.
         // Do not forget to add translations for your config options to the en_us.json file.
@@ -25,7 +25,7 @@ public class RealistichealthmodClient {
     @SubscribeEvent
     static void onClientSetup(FMLClientSetupEvent event) {
         // Some client setup code
-        Realistichealthmod.LOGGER.info("HELLO FROM CLIENT SETUP");
-        Realistichealthmod.LOGGER.info("MINECRAFT NAME >> {}", Minecraft.getInstance().getUser().getName());
+        StarterMod.LOGGER.info("HELLO FROM CLIENT SETUP");
+        StarterMod.LOGGER.info("MINECRAFT NAME >> {}", Minecraft.getInstance().getUser().getName());
     }
 }
